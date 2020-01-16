@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="100dp"
+        android:background="#9A8BC34A"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You're close to person who accept to pick you up.. "
+            android:textAlignment="center"
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check carefully and find his/her car.."
+            android:textAlignment="center"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:id="@+id/acceptMatchScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#4CAF50"
+            android:text="accept" />
+
+        <Button
+            android:id="@+id/rejectMatchScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F44336"
+            android:text="reject" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

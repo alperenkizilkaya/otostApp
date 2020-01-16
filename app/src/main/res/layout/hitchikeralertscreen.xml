@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#19EB0101"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:text="warning! after this part, you'll wait until hear the driver notification (:"
+            android:textAlignment="center"
+            android:textColor="#BCEB0101"
+            android:textColorHighlight="#00CC0909"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/acceptAlert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#4CAF50"
+                android:text="accept" />
+
+            <Button
+                android:id="@+id/rejectAlert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#F44336"
+                android:text="cancel" />
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>
